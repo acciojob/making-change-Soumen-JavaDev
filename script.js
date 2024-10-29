@@ -9,7 +9,7 @@ const makeChange = (c) => {
 	const d=Math.floor(c/dime);
 	c %=dime;
 	const n=Math.floor(c/nickel);
-	c%-nickel;
+	c%-nickel
 	const p=c;
 	return {q,d,n,p};
 	
